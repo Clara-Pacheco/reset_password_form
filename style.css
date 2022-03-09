@@ -1,0 +1,70 @@
+body {
+  font-family: 'Amiko', sans-serif;
+  background-color: #C7C6C6;
+}
+
+.form-container {
+  width: 400px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  
+}
+
+.form-container .title {
+  font-weight: 900;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.form-container .text {
+  margin-bottom: 35px;
+  text-align: center;
+  font-weight: 400;
+  
+}
+
+.form-container .email-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.form-container .email-container input {
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  padding-left: 15px;
+  color: #D6D6D6;
+  border: 1px solid #D6D6D6;
+  margin-bottom: 20px;
+
+}
+
+svg {
+  position: absolute;
+  top: calc(50% - 22px);
+  right: 10px;
+}
+
+.form-container input[type="submit"] {
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  margin-bottom: 35px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+}
+
+.form-container .signin {
+  margin-bottom: 20px;
+}
+
+.form-container .signin span {
+  text-decoration: none;
+  color: red;
+}
